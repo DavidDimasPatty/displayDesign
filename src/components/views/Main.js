@@ -40,7 +40,7 @@ const Main = () => {
     return (
         <>
             <Header />
-            <div className="col">
+            <div className="col main-content">
                 <h3 className='text-center mb-4'>tes</h3>
                 <div className="row gap-3 align-items-center justify-content-center">
                     {products.slice().sort((a, b) => a.urutan - b.urutan).map(item => {

@@ -1,3 +1,17 @@
-body{
+html {
+    min-height: 100vh;
+}
+
+body {
     overflow-x: hidden;
+    min-height: 100vh;
+}
+
+#root .App{
+    min-height: 100vh;
+}
+
+.main-content {
+    position: relative;
+      min-height: 100vh;
 }
